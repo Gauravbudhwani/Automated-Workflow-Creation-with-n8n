@@ -1,8 +1,6 @@
-node_modules
+node_modules/
+dist/
+.env
+*.log
+generated-workflows/*.json
 .DS_Store
-.tmp
-tmp
-dist
-npm-debug.log*
-yarn.lock
-.vscode/launch.json

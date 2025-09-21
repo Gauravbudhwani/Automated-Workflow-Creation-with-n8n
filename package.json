@@ -1,22 +1,35 @@
 {
-  "name": "n8n-nodes-<...>",
-  "version": "0.1.0",
-  "description": "",
+  "name": "automated-workflow-creation-n8n",
+  "version": "1.0.0",
+  "description": "AI-powered n8n workflow generator using Google Gemini AI. Transforms natural language prompts into complete, ready-to-run n8n workflows with automatic file generation. Built for GDGC Machine Learning Task Round.",
   "keywords": [
-    "n8n-community-node-package"
+    "n8n-community-node-package",
+    "n8n",
+    "automation",
+    "AI",
+    "workflow",
+    "gemini",
+    "machine-learning",
+    "GDGC",
+    "custom-node",
+    "workflow-automation",
+    "natural-language-processing"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/Gauravbudhwani/Automated-Workflow-Creation-with-n8n#readme",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Gaurav Budhwani",
+    "email": "gauravbudhwani@example.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/<...>/n8n-nodes-<...>.git"
+    "url": "https://github.com/Gauravbudhwani/Automated-Workflow-Creation-with-n8n.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gauravbudhwani/Automated-Workflow-Creation-with-n8n/issues"
   },
   "engines": {
-    "node": ">=20.15"
+    "node": ">=18.0.0"
   },
   "main": "index.js",
   "scripts": {
@@ -25,31 +38,40 @@
     "format": "prettier nodes credentials --write",
     "lint": "eslint nodes credentials package.json",
     "lintfix": "eslint nodes credentials package.json --fix",
-    "prepublishOnly": "npm run build && npm run lint -c .eslintrc.prepublish.js nodes credentials package.json"
+    "prepublishOnly": "npm run build && npm run lint -c .eslintrc.prepublish.js nodes credentials package.json",
+    "start": "n8n start",
+    "setup": "npm install && npm run build",
+    "test": "echo \"✅ AI Workflow Generator built successfully!\" && npm run build"
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md",
+    "DEPLOYMENT.md",
+    "LICENSE",
+    "examples/"
   ],
   "n8n": {
     "n8nNodesApiVersion": 1,
-    "credentials": [
-      "dist/credentials/ExampleCredentialsApi.credentials.js",
-      "dist/credentials/HttpBinApi.credentials.js"
-    ],
+    "credentials": [],
     "nodes": [
-      "dist/nodes/ExampleNode/ExampleNode.node.js",
-      "dist/nodes/HttpBin/HttpBin.node.js"
+      "dist/nodes/ExampleNode/WorkflowGenerator.node.js"
     ]
   },
   "devDependencies": {
+    "@types/node": "^18.0.0",
     "@typescript-eslint/parser": "~8.32.0",
     "eslint": "^8.57.0",
     "eslint-plugin-n8n-nodes-base": "^1.16.3",
     "gulp": "^5.0.0",
     "prettier": "^3.5.3",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.2",
+    "rimraf": "^3.0.2"
   },
   "peerDependencies": {
     "n8n-workflow": "*"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.12.2"
   }
 }
