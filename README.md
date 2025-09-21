@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![Banner image](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png)
 
 # n8n-nodes-starter
@@ -46,3 +47,7 @@ Refer to our [documentation on creating nodes](https://docs.n8n.io/integrations/
 ## License
 
 [MIT](https://github.com/n8n-io/n8n-nodes-starter/blob/master/LICENSE.md)
+=======
+# Automated-Workflow-Creation-with-n8n
+This is an n8n trigger that can generate a complete n8n workflow from a single prompt
+>>>>>>> 35771075a9473e895f0322373f65cb5107182292
