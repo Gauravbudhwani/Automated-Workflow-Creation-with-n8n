@@ -1,0 +1,157 @@
+[33m0eec953[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Merge remote changes with local documentation
+[33m101ff30[m docs: Add comprehensive documentation and examples
+[33m3577107[m Update README.md
+[33mb7d6f2e[m Initial commit
+[33m67ee5b8[m fix: prepublish script (#79)
+[33me863c55[m Small tweaks to README and updated icon example (#76)
+[33mc6c8bb6[m Fix commands for npm (#75)
+[33m9b8a6b7[m Add rimraf to build to help prevent examples being published (#74)
+[33m65e0633[m docs: update section links (#71)
+[33m3624c92[m Update to support new features (#70)
+[33m73c9981[m fix: Remove `n8n-workflow` as dev dependency (#63)
+[33ma36a4a1[m chore: Remove tslint config (#64)
+[33mb2ba2d1[m Update ExampleNode.node.ts
+[33m7eb8838[m fix action > description (#36)
+[33m74b954c[m feat: replace npm with pnpm (#41)
+[33m58094ce[m Merge pull request #46 from n8n-io/stop-using-core
+[33m0b3d008[m make n8n-workflow a peerDependency
+[33m571ab0a[m stop using n8n-core in nodes
+[33m0466fdb[m :zap: Fix build issue
+[33m9969923[m Merge pull request #37 from n8n-io/general-update
+[33mcfbd8bc[m :package: Re-update `package-lock.json`
+[33m979eefa[m :shirt: Update lint config
+[33m3e403ea[m :wrench: Update `tsconfig.json`
+[33m7828722[m :package: Update `package-lock.json`
+[33m5e81fb4[m :package: Update dependencies
+[33m4058614[m :zap: Add `.npmignore`
+[33m2d6d19c[m :fire: Remove deprecated rules
+[33mcf37545[m update package.json dependencies (#33)
+[33m40a1d2e[m Merge pull request #30 from n8n-io/readme-template
+[33m9fbef7d[m add TOC and version history section
+[33m246155d[m readme template draft
+[33m231c29c[m USA spelling
+[33m35d7b9b[m add test step
+[33mf61f363[m Merge pull request #29 from n8n-io/update-readme
+[33md817432[m Merge branch 'master' into update-readme
+[33mc429bcc[m update readme and add CoC
+[33m6ad687a[m remove default values
+[33ma4a172f[m update README.md
+[33mbd8bf2c[m Fix credential name
+[33mb11e4aa[m Merge pull request #26 from n8n-io/apply-lintings-progressively
+[33m8915c01[m :zap: Change `:` to `&&` in scripts
+[33m0c5df74[m :sparkles: Set up `prepublishOnly` command
+[33m994a677[m :shirt: Enable `community-package-json-name-still-default` on publish
+[33mb4c4047[m :shirt: Disable `community-package-json-name-still-default`
+[33ma5c6769[m :package: Update `package-lock.json`
+[33m10212ac[m :arrow_up: Upgrade `eslint-plugin-n8n-nodes-base`
+[33m788a74b[m Merge pull request #25 from n8n-io/update-pairing-lintings
+[33md94bb8d[m Merge pull request #24 from n8n-io/track-vscode-dir
+[33m0ff9ad1[m :shirt: Disable pairing lintings
+[33mbc9f46f[m :zap: Track `.vscode` dir
+[33m01157a3[m Merge pull request #19 from n8n-io/StarfallProjects-creds-docs-url
+[33m2b1a43d[m Merge branch 'master' into StarfallProjects-creds-docs-url
+[33mf6d9d17[m Update package-lock.json and add pairedItem
+[33m5935eec[m Merge pull request #21 from n8n-io/upgrade-linter-for-api-version-rules
+[33m63243d6[m Add package-lock.json to versions
+[33mc22d1b6[m :fire: Remove leftovers
+[33mb404614[m :arrow_up: Upgrade `eslint-plugin-n8n-nodes-base`
+[33m0c75031[m Merge branch 'master' of github.com:n8n-io/n8n-nodes-starter
+[33m3c29681[m Fix http for documentation url and add n8n nodes version information
+[33mf12fc7d[m Update README.md
+[33m213d03a[m Update README.md
+[33m3db27bb[m Merge pull request #20 from n8n-io/documentation-url-adjustment
+[33mc9c7550[m :arrow_up: Upgrade `eslint-plugin-n8n-nodes-base`
+[33m5c3bb35[m :shirt: Disable `cred-class-field-documentation-url-miscased`
+[33m71f3e51[m Merge pull request #17 from n8n-io/more-general-improvements
+[33m4998bfd[m :zap: Add `action` to `HttpVerbDescription`
+[33m249a1cf[m Add correct credential docs
+[33m9a6c7a9[m :shirt: Enable `node-param-operation-option-without-action`
+[33m991b13b[m :fire: Remove repetition
+[33mf58a068[m :shirt: Adjust credentials file per lintings
+[33m03db036[m :shirt: Adjust lintings
+[33ma1e9d64[m Update HttpBinApi.credentials.ts
+[33m4e292c7[m :fire: Remove changes related to `action`
+[33meb80b1e[m :shirt: Adjust rules per renamings
+[33mb4cce8d[m :twisted_rightwards_arrows: Merge master
+[33m7ac69f8[m Improve example credential
+[33mde7c4db[m Fix credential usage and error output
+[33m26f52ed[m Add clarifying comment
+[33mba83500[m Add correct error output with context
+[33mabe033d[m Handle errors from example node and clarified options about credentials and properties
+[33me9538b1[m :arrow_up: Upgrade `n8n-core` and `n8n-workflow`
+[33mdc1db20[m :zap: Set up `action` for operation options
+[33m4319962[m :page_facing_up: Adjust MIT license
+[33m68b3bf2[m :fire: Remove contributor license agreement
+[33me9942e1[m :shirt: Remove `quotemark` conflicting with Prettier
+[33m8254a88[m :zap: Add `prepare` script
+[33m82b2552[m :zap: General improvements
+[33m6f348e2[m :zap: Make paths OS-agnostic
+[33me2b4595[m Moved core to dev dependencies
+[33m392a2a4[m Merge pull request #15 from n8n-io/integrate-community-linting-ruleset
+[33mb586ec8[m :pencil2: fix typo
+[33m455342b[m :twisted_rightwards_arrows: Merge master
+[33m691f1ad[m Merge pull request #16 from n8n-io/general-improvements-pre-community-release
+[33m1d8cefe[m :wrench: Update `tsconfig.json`
+[33madb6f6a[m :arrow_up: Upgrade TypeScript version
+[33m5182df6[m :zap: Combine `lint` and `lintfix` scripts
+[33m05d78d6[m :pencil2: Add TODO comment
+[33m7786edd[m :fire: Remove duplicate script
+[33mb31979b[m :fire: Remove `test` script
+[33mba1d004[m :heavy_minus_sign: Remove `glob-parent`
+[33macbdb93[m :heavy_minus_sign: Remove `jest` and `ts-jest`
+[33m2b2ddca[m :hammer: Update gulp
+[33mf2731ea[m :art: Apply Prettier
+[33m57751f3[m :zap: Set up Prettier command
+[33m0d1c2a3[m :wrench: Create Prettier config
+[33m0dbef64[m :heavy_plus_sign: Add `prettier`
+[33ma8ad9e6[m :fire: Remove `.eslintignore`
+[33m6c8b561[m :shirt: Integrate community linting ruleset
+[33meffe1ed[m Remove unnecessary jest block
+[33m6ffbebb[m Cleanup unnecessary dependencies
+[33m102187b[m Merge pull request #13 from n8n-io/n8n-3857-add-example-node-to-community-repo
+[33m4bc4f1e[m Added minor info to readme
+[33m583e530[m Added necessary plugins and fixed configs for linting
+[33mb2b5a97[m :rotating_light: Autofix node linting
+[33mb15212d[m :rotating_light: Add linting rules
+[33mff96b59[m :heavy_plus_sign: Add eslint-plugin-n8n dependency
+[33mb61ff78[m :zap: Fix incorrect defaults :zap: Remove Auth resource
+[33m0a60bad[m Merge branch 'n8n-3857-add-example-node-to-community-repo' of https://github.com/n8n-io/n8n-nodes-starter into n8n-3857-add-example-node-to-community-repo
+[33m7ae12c1[m Merge branch 'master' into n8n-3857-add-example-node-to-community-repo
+[33mcdeb92e[m :see_no_evil: Add launch.json to gitignore
+[33ma2b091e[m Merge branch 'master' into n8n-3857-add-example-node-to-community-repo
+[33mffb539e[m Fix license link
+[33m3acbd28[m Change license
+[33md65ab9e[m Merge pull request #14 from n8n-io/n8n-3879-n8n-nodes-starter-update-dependencies
+[33m2ddf486[m Also bump n8n packages version
+[33m2d220e2[m :arrow_up: Up gulp dependency :pushpin: override glob-parent version for child dependencies
+[33m1c53ac9[m :zap: Improve descriptions
+[33me37148b[m :recycle: fix descriptions
+[33m5909f4d[m :recycle: Import HTTP Verbs operations and fields
+[33me123f16[m :recycle: Separate HTTP Verbs functionality to it's own file
+[33m35b1808[m :recycle: Add Bearer Token authentication section
+[33mf528f99[m Fix credentials naming to match class name
+[33m0623f03[m Add relevant category
+[33md753dc9[m Add new node to n8n credentials and nodes list
+[33m7197852[m :zap: Fix node name and color :zap: Add initial Resource and Operation
+[33m1f0e9fc[m Move credentials to correct directory
+[33m2496f9b[m :wrench: Enable ES Module Interop
+[33m380b617[m :zap: Create New HttpBin Declarative Node
+[33m1bb7f88[m :arrow_up: Update n8n core and workflow
+[33m22a6851[m Update package.json
+[33m543a14e[m Update README.md
+[33m61ed829[m Merge pull request #10 from n8n-io/update-package-json-community
+[33mc20c699[m add a bit more detail to readme
+[33mb9fa372[m quick update
+[33mcfade8a[m :arrow_up: Update dependencies
+[33m2c50dde[m :zap: Add .editorconfig file
+[33m61dca83[m :shirt: Fix lint issue
+[33m9d41833[m :bug: Fix package (#6)
+[33m0b4d09b[m :twisted_rightwards_arrows: Merge branch 'master' of github.com:n8n-io/n8n-nodes-starter
+[33md007bce[m :books: Add Contributor License Agreement
+[33m12b01e5[m :twisted_rightwards_arrows: Merge pull request #4 from thiagopxp/master
+[33m0f40c57[m Add missing @types/express to package.json
+[33mbd0d694[m :twisted_rightwards_arrows: Merge pull request #1 from ariarijp/fix-dependency-issue
+[33m8ebd4f9[m :twisted_rightwards_arrows: Merge pull request #3 from ozee31/patch-1
+[33m2477f01[m Add missing @types/request-promise-native to package.json
+[33m5f4c6e8[m Fix missing dependency
+[33md3a225f[m :tada: Initial commit
