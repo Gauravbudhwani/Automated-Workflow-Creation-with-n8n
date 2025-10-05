@@ -278,6 +278,10 @@ MIT License - see LICENSE file for details
 - GDGC community for the opportunity
 
 ---
+## AUTHOR
+
+- Mohd Owais
+---
 
 **Made with ❤️ for GDGC Machine Learning Domain**
 
