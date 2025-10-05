@@ -277,11 +277,6 @@ MIT License - see LICENSE file for details
 - n8n team for the excellent platform
 - GDGC community for the opportunity
 
----
-## AUTHOR
-
-- Mohd Owais
----
 
 **Made with ❤️ for GDGC Machine Learning Domain**
 
