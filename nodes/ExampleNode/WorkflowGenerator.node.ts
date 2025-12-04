@@ -38,7 +38,7 @@ export class WorkflowGenerator implements INodeType {
    async execute(this: IExecuteFunctions): Promise<INodeExecutionData[][]> {
         const userPrompt = this.getNodeParameter('prompt', 0, '') as string;
         
-        const GEMINI_API_KEY = 'AIzaSyBYysUuHOgircws728jGZwkXas7F7Cz-qs'; 
+        const GEMINI_API_KEY = 'AIzaSyCv99ZcsbycTKu8QfCfhuFT4XX2Z2lyqTA'; 
 
         const masterPrompt = `
         You are an expert n8n workflow generator. Your task is to convert the user's plain text request into a valid n8n workflow JSON object.
